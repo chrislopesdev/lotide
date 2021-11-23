@@ -13,7 +13,7 @@ const head = function(arr) {
   } else {
     return arr[0];
   }
-}
+};
 
 assertEqual(head([5,6,7]), 5);
 assertEqual(head([6,7]), 5);
