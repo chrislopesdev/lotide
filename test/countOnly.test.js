@@ -15,8 +15,6 @@ describe('#countOnly', () => {
   });
 });
 
-
-
 // TEST CODE
 const firstNames = [
   "Karl",
