@@ -1,0 +1,27 @@
+{
+  "name": "@chrislopesdev/lotide",
+  "version": "1.0.0",
+  "description": "Lighthouse Labs version of the lodash library",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrislopesdev/lotide.git"
+  },
+  "keywords": [],
+  "author": "chris lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrislopesdev/lotide/issues"
+  },
+  "homepage": "https://github.com/chrislopesdev/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
