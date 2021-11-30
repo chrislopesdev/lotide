@@ -50,3 +50,5 @@ console.log(assertEqual(eqObjects(objArr1, objArr2), true)); // => false
 
 const abc = { a: "1", b: "2", c: "3" };
 console.log(assertEqual(eqObjects(ab, abc), false)); // => false
+
+module.exports = eqObjects;

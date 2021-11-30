@@ -33,3 +33,5 @@ console.log(results1);
 assertArraysEqual(map(words, x => x.length), [6, 7, 2, 5, 3]) // True
 assertArraysEqual(map(words, x => x.length), [6, 7, 3, 5, 3]) // False
 assertArraysEqual(map(words, x => x), [0, 1, 2, 3, 4]) // False
+
+module.exports = map;

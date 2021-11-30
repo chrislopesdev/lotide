@@ -51,3 +51,5 @@ const bc = { b: "2", c: "1" };
 assertObjectsEqual(ab, ba);
 
 assertObjectsEqual(ab, bc);
+
+module.exports = assertObjectsEqual;

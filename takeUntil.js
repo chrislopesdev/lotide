@@ -43,3 +43,5 @@ console.log(results2);
 const data3 = [1, 2, 3, 4, 5];
 assertArraysEqual(takeUntil(data3, x => x > 4), [1, 2, 3, 4]); // true
 assertArraysEqual(takeUntil(data3, x => x > 4), [1, 2, 3]); // false
+
+module.exports = takeUntil;
